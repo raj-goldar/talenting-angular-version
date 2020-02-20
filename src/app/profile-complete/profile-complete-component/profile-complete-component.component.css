@@ -1,0 +1,107 @@
+.login-2
+{
+  float: none;
+  width: auto;
+}
+.form-group label
+{
+  font-size: 13px !important;
+}
+.form-group {
+  margin-bottom: 12px !important;
+}
+.rw-pr-par
+{
+  margin-left:260px;
+  margin-top: 32px;
+}
+.emp-type-check
+{
+  display: flex !important;
+}
+.emp-type-check input
+{
+  margin-top: 5px;
+}
+.emp-type-check span
+{
+  margin-left: 7px;
+}
+.progress-main
+{
+  width: 100%;
+  display: flex;
+}
+.progress-main div
+{
+  width: 25%;
+  margin: 0 13px 16px 9px;
+}
+.progress-child
+{
+    padding: 10px 0 10px 0px;
+    background-color: #02499b;
+    color: white;
+    border-radius: 4px;
+}
+
+.step-icon
+{
+    background-color: #9f1b57;
+    padding: 12px 18px 13px 18px;
+    border-radius: 4px;
+}
+.step-text
+{
+  margin-left: 20px;
+}
+.input100{
+	outline: none;
+  border: none;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+.input100-div input
+{
+  border-bottom: 2px solid grey !important;
+}
+.input100-div textarea
+{
+  border: 2px solid grey !important;
+}
+.input100-div i
+{
+  margin-top: 17px;
+}
+.form-group label
+{
+  font-size: 13px !important;
+  font-weight: 100 !important;
+  margin-bottom: 0px !important;
+  margin-left: 13px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 15px;
+  color: grey;
+}
+select.form-control:not([size]):not([multiple]) {
+  height: 49px !important;
+}
+.site-button
+{
+    background-image: linear-gradient(-30deg, #77c7a1 17%, #1a5fa2 100%, #ff0000 200%) !important;
+  color: white !important;
+  box-shadow: 0px 4px 11px 1px rgba(50, 53, 52, 0.76);
+}
+.text-center
+{
+  margin-top: 20px;
+}
+.mat-form-field
+{
+  display: block !important;
+}
+#headingText
+{
+  margin: 0 0 20px 0 !important;
+}

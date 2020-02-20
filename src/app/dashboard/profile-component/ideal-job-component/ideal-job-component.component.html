@@ -1,0 +1,112 @@
+<div id="desired_career_profile_bx" class="job-bx bg-white m-b30">
+    <div class="d-flex">
+        <h5 class="m-b15" style="margin-bottom: 4px;">Ideal Job</h5>
+        <a data-toggle="modal" data-target="#myModalAddIdealJob" class="site-button add-btn button-sm"><i class="fa fa-plus-square m-r5"></i> Update</a>
+    
+    </div>
+    <hr>
+        <!-- Details -->
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="clearfix m-b20">
+                    <label class="m-b0">Desired Pay</label>
+                    <span class="clearfix font-13">$2,500 Annually</span>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="clearfix m-b20">
+                    <label class="m-b0">Employment Type</label>
+                    <span class="clearfix font-13">Direct Hire , Contract / Temporary , Part-time / Gig</span>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="clearfix m-b20">
+                    <label class="m-b0">Currently Available</label>
+                    <span class="clearfix font-13">Mar 03, 2023</span>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="clearfix m-b20">
+                    <label class="m-b0">Willing to Relocate</label>
+                    <span class="clearfix font-13">Yes</span>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="clearfix m-b20">
+                    <label class="m-b0">Willing to Travel</label>
+                    <span class="clearfix font-13">Yes</span>
+                </div>
+            </div>
+        </div>
+        <!-- Details End -->
+    <!-- Modal -->
+    <!-- Modal -->
+  <div class="modal fade" id="myModalAddIdealJob" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title">Update Ideal Job</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-md-12" style="margin: 9px 0 8px 0;">
+                    <mat-checkbox class="example-margin">I am
+                        currently Available</mat-checkbox>
+                </div>
+            </div>
+            <label style="margin-bottom: 10px; font-weight: 500;">Employment Types *</label>
+            <div class="row" style="margin-bottom: 15px;">
+
+                <div class="col-md-4">
+                    <mat-checkbox class="example-margin">Direct Hire</mat-checkbox>
+                </div>
+                <div class="col-md-4">
+                    <mat-checkbox class="example-margin">Contract / Temp</mat-checkbox>
+                </div>
+                <div class="col-md-4">
+                    <mat-checkbox class="example-margin">Part-time / Gig</mat-checkbox>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Choose available date</mat-label>
+                        <input matInput [min]="minDate" [max]="maxDate"
+                            [matDatepicker]="availableDate">
+                        <mat-datepicker-toggle matSuffix [for]="availableDate">
+                        </mat-datepicker-toggle>
+                        <mat-datepicker #availableDate></mat-datepicker>
+                    </mat-form-field>
+                </div>
+                <div class="col-md-4">
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Desired Pay*</mat-label>
+                        <input matInput placeholder="Enter Desired Pay">
+                    </mat-form-field>
+                </div>
+                <div class="col-md-4">
+                    <mat-form-field>
+                        <mat-label>Select Annually*</mat-label>
+                        <mat-select name="food">
+                            <mat-option>Annually</mat-option>
+                            <mat-option>Hourly</mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+    <!-- Modal End -->
+
+</div>

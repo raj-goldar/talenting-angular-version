@@ -1,0 +1,69 @@
+.list-group a
+{
+    background-color: white !important;
+    color: #00000094 !important;
+}
+.sidebar-submenu a
+{
+    color: #00000094 !important;
+}
+.list-group-item
+{
+    padding: 15px 30px 15px 30px;
+}
+.list-group
+{
+    box-shadow: 0px 9px 20px 2px rgba(146, 162, 155, 0.8);
+}
+.careerfy-typo-wrap
+{
+    box-shadow: 0px 9px 20px 2px rgba(146, 162, 155, 0.8);
+    border-radius: 4px;
+}
+.verification-received h1
+{
+    font-weight: 300 !important;
+    color: #00000094;
+}
+.verification-received h2
+{
+    font-weight: 300 !important;
+    color: #00000094;
+}
+.main-card-verification{
+    padding: 35px 35px 35px 35px;
+    background-color: white;
+    border: 1px solid #d0c6c6;
+    border-bottom: 1px solid #2268a2;
+    border-radius: 4px;
+    text-align: center;
+}
+.veri00-box
+{
+    background-color: white;
+    padding: 60px 60px 60px 60px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0,24,128,0.1);
+}
+.veri00-card-img img
+{
+    width: 30%;
+}
+.main-card-verification00 {
+    padding: 35px 35px 35px 35px;
+    background-color: white;
+    border: 1px solid #d0c6c6;
+    border-bottom: 3px solid #b5b5b5;
+    border-radius: 5px;
+    text-align: center;
+}
+.main-card-verification00:hover
+{
+    border-bottom: 3px solid #2268a2;
+    cursor: pointer;
+    transition: all .2s ease-in-out 0s;
+}
+.card_detail_lv h3
+{
+    font-size: 20px !important;
+}

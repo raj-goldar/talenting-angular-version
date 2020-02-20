@@ -1,1 +1,185 @@
-/* You can add global styles to this file, and also import other style files */
+/* @import '@angular/material/prebuilt-themes/deeppurple-amber.css'; */
+
+/* html, body { height: 100%; } */
+/* body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+
+body
+{
+    /* font-family: 'Overpass', sans-serif !important; */
+    font-family: Poppins,Helvetica,sans-serif !important;
+    background-color: #9690900f;
+}
+h6
+{
+    color: #6b6b6b;
+}
+h5{
+    color: #00000094;
+}
+h4
+{
+    color: #00000094;
+}
+
+.tooltip-inner
+{
+    background-color: #1a5fa2;
+}
+.bs-tooltip-top .arrow::before {
+    border-top-color: #1a5fa2;
+}
+.widget-title.style-1 {
+    font-weight: 500 !important;
+}
+.bg-white
+{
+    border-radius: 4px !important;
+}
+.tg-widgetcontent
+{
+    border-radius: 4px !important;
+}
+.header-nav
+{
+    float: right;
+}
+.main-bar
+{
+    background-image: linear-gradient(-30deg, #77c7a1 17%, #1a5fa2 100%, #ff0000 200%) !important;
+    border-bottom: 1px solid white;
+}
+
+
+/* list of verifier */
+.main-card-w-v
+{
+    padding: 20px 0 20px 25px;
+    background-color: white;
+    display: flex;
+    border: 1px solid #d0c6c6;
+    border-bottom: 1px solid #2268a2;
+    border-radius: 4px;
+}
+.card_img
+{
+    padding-right: 15px;
+}
+.list-v-sec
+{
+    background-color: white;
+    position: relative;
+    left: -103.5px;
+    box-sizing: border-box;
+    width: 1349px;
+    margin-bottom: 80px;
+    padding: 74.5px 74.5px 74.5px 74.5px;
+}
+.card_detail_lv p
+{
+    margin-bottom: 0px !important;
+    font-size: 12px;
+    word-break: break-all;
+}
+.card_detail_lv p span
+{
+    margin-right: 8px !important;
+}
+.card_detail_lv p span img
+{
+    width: 7%;
+}
+.card-detail-skill span
+{
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 3px 8px 3px 8px;
+    font-size: 11px;
+    margin-right: 10px;
+}
+.card_img img
+{
+    height: 120px;
+    border-radius: 50%;
+}
+.main-card-w-v:hover
+{
+    border-bottom: 2px solid #77c7a1;
+    transition: all .2s ease-in-out 0s;
+    box-shadow: 0px 9px 14px 0px rgb(133, 197, 167);
+}
+.main-card-w-v:hover .card-detail-skill span {
+    border: 1px solid #77c7a1;
+    transition: all .2s ease-in-out 0s;
+}
+.ver_heading
+{
+    margin: -33px 0 50px 0;
+    text-align: center;
+}
+.ver_heading:after
+{
+    content: '';
+    position: absolute;
+    left: 43%;
+    width: 172px;
+    height: 1px;
+    background: #2268a2;
+}
+.list-v-view-btn
+{
+    text-align: center;
+    margin-top: 45px;
+}
+
+.site-button-d{
+    background-image: linear-gradient(-30deg, #77c7a1 17%, #1a5fa2 100%, #ff0000 200%) !important;
+    color: white !important;
+    box-shadow: 0px 4px 11px 1px rgba(50, 53, 52, 0.76);
+    padding: 16px 25px 16px 25px;
+    border-radius: 4px;
+}
+.site-button {
+    color: #b5b5b5 !important;
+    background-color: #ffffff !important;
+}
+.site-button:hover
+{
+    background-image: linear-gradient(-30deg, #77c7a1 17%, #1a5fa2 100%, #ff0000 200%) !important;
+    color: white !important;
+}
+.error-alert
+{
+    color: red;
+    margin: -31px 0 14px 0;
+    text-align: center;
+}
+.mat-checkbox-checked.mat-accent .mat-checkbox-background
+{
+    background-color: #4a95a2 !important;
+}
+.mat-checkbox-label
+{
+    font-weight: 400;
+    font-size: 13px;
+}
+.mat-form-field-appearance-outline .mat-form-field-infix {
+    padding: 1em 0 4em 0;
+}
+.mat-form-field-appearance-outline .mat-form-field-outline-thick {
+    color: rgba(0,0,0,.12);
+}
+.modal-header
+{
+    background-image: linear-gradient(-30deg, #77c7a1 17%, #1a5fa2 100%, #ff0000 200%) !important;
+    color: white !important;
+    border-radius: 5px;
+}
+.mat-form-field
+{
+    display: block !important;
+}
+.d-flex h5
+{
+    font-weight: 600;
+    font-size: 16px;
+}

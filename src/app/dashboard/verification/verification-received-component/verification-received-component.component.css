@@ -1,0 +1,120 @@
+.mat-table
+{
+  font-family: Poppins,Helvetica,sans-serif !important;
+}
+footer{
+    margin-top: 60px !important;
+  }
+  .tbl-heading
+  {
+    float: left;
+    padding-left: 19px;
+  }
+  .tbl-heading h4
+  {
+    padding-top: 14px;
+    font-weight: 500;
+  }
+  mat-form-field
+  {
+    float: right;
+  }
+  .mat-header-row
+  {
+    height: 60px;
+  }
+  /* .mat-header-row th:first-child
+  {
+    width: 6%;
+  } */
+  .mat-row
+  {
+    height: 45px;
+    font-size: 13px;
+    font-weight: 300;
+  }
+  .mat-row td.mat-cell
+  {
+    /* border-bottom: none; */
+    color: #595d6e;
+    /* padding-bottom: 30px; */
+  }
+  .mat-header-row th {
+    /* border-bottom-style: none; */
+    font-size: 13px;
+    font-weight: 600;
+    color: #000000d4;
+  }
+  .mat-elevation-z8
+  {
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0,24,128,0.1) !important;
+  }
+  .received-tab-bar
+  {
+    margin: 0 0 16px 0;
+  }
+  .received-tab-bar ul
+  {
+    list-style: none;
+    display: inline-flex;
+  }
+  .received-tab-bar ul li
+  {
+    padding: 0 13px 0 13px;
+    font-weight: 600;
+    color: #909191;
+    cursor: pointer;
+  }
+  .received-tab-bar ul li:hover
+  {
+    padding: 0 13px 0 13px;
+    font-weight: 600;
+    color: #1a5fa2;
+    cursor: pointer;
+    border-bottom: 2px solid #1a5fa2;
+  }
+  
+  .received-tab-bar ul li:first-child
+  {
+    color: #1a5fa2;
+    border-bottom: 2px solid #1a5fa2;
+  }
+  .received-main-heading
+  {
+    box-shadow: 0 0 10px 0 rgba(0,24,128,0.1);
+    border-radius: 5px;
+    padding: 15px 0 15px 0;
+    margin: 58px 0 34px 0;
+    background-color: white;
+  }
+  .received-main-heading h4
+  {
+    text-align: center;
+    font-weight: bolder;
+  }
+  .tbl-main
+  {
+    background-color: white;
+    border-radius: 5px;
+  }
+  mat-paginator
+  {
+    border-radius: 5px;
+  }
+  mat-chip
+  {
+    background-color: #ff4081 !important;
+    color: #fff !important;
+  }
+  .mat-standard-chip {
+    transition: box-shadow 280ms cubic-bezier(.4,0,.2,1);
+    display: inline-flex;
+    padding: 0 10px 0 10px;
+    border-radius: 16px;
+    align-items: center;
+    cursor: default;
+    min-height: 19px;
+    font-size: 11px;
+    font-weight: 400;
+}

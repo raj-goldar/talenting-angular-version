@@ -1,0 +1,147 @@
+@media (min-width: 1200px)
+{
+    .container
+    {
+        max-width: 1170px;
+    }
+}
+.input100{
+	outline: none;
+  border: none;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+.input100-div
+{
+  /* border-bottom: 2px solid grey !important; */
+}
+.input100-div i
+{
+  margin-top: 17px;
+}
+.login100-form-title
+{
+  display: block;
+  font-family: Poppins,Helvetica,sans-serif;
+  font-size: 38px;
+  color: #333;
+  line-height: 1.2;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 12px;
+}
+.form-group label
+{
+  font-size: 15px !important;
+  font-weight: 100 !important;
+  margin-bottom: 0px !important;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 15px;
+  color: grey;
+}
+.login-2
+{
+  width: 450px !important;
+  padding: 40px 45px 0 45px !important;
+}
+.site-button
+{
+  background-image: linear-gradient(-30deg, #77c7a1 17%, #1a5fa2 100%, #ff0000 200%) !important;
+  color: white !important;
+  box-shadow: 0px 4px 11px 1px rgba(50, 53, 52, 0.76);
+}
+.social-login
+{
+  margin: 35px 0 10px 0;
+  text-align: center;
+}
+.social-icon ul
+{
+    list-style: none;
+    text-decoration: none;
+    display: inline-flex;
+    margin-top: 16px;
+}
+.social-icon ul li
+{
+  margin-left: 20px;
+}
+.social-icon ul li a img
+{
+  width: 50%;
+}
+.text-center00 a
+{
+  width: 100%;
+  float: right;
+}
+.text-center00
+{
+  margin-top: -29px;
+    float: right;
+}
+.text-center01
+{
+  text-align: center;
+}
+.text-center01 button
+{
+    width: 100%;
+    margin-top: 27px;
+}
+.mat-form-field
+{
+  display: block !important;
+}
+.text-center01
+{
+  text-align: center;
+}
+.text-center01 button
+{
+    width: 100%;
+    margin-top: 27px;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+.already-acc
+{
+  text-align: center;
+    margin-top: 45px;
+}
+.already-acc p
+{
+  font-weight: 500;
+    font-size: 13px;
+}
+.example-margin
+{
+  margin-top: 5px;
+}
+.social-media-signup
+{
+  margin-top: 35px;
+  text-align: center;
+}
+.social-icon-card span img
+{
+  width: 8%;
+}
+.social-icon-card span
+{
+  margin-right: 10px;
+}
+.social-media-signup p
+{
+  font-weight: 500;
+    font-size: 13px;
+}

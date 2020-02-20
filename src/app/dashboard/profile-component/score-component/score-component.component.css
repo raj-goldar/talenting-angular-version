@@ -1,0 +1,23 @@
+.gauge-card img
+{
+    width: 35%;
+}
+.gauge-icon
+{
+    text-align: center;
+}
+.gauge-icon p
+{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.gauge-card
+{
+    padding: 0 45px 30px 45px;
+}
+.gauge-detail_00 p
+{
+    font-size: 13px;
+    text-align: justify;
+}

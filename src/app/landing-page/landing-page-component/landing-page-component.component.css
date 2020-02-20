@@ -1,0 +1,47 @@
+.bg-img
+{
+    /* background-color: #0000ff59; */
+    background-image: -webkit-linear-gradient(#4500ca 4%,rgba(69,0,202,0) 50%),url(https://www.elegantthemes.com/images/divi/divi-gallery-hero-background.jpg),-webkit-linear-gradient(30deg,#28005f 16%,#8300e5 64%,#0f3bff 100%);
+    background-size: cover;
+    min-height: 100vh;
+}
+.logo h1
+{
+    color: white;
+}
+.logo
+{
+    padding: 30px 0 0 0;
+}
+.landing-banner
+{
+    padding: 78px 0 78px 0;
+}
+.landing-banner-heading h1
+{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+.landing-ban-detail00 h2
+{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.landing-button
+{
+    text-align: center;
+    margin-top: 73px;
+}
+.landing-button a
+{
+    background-image: linear-gradient(-30deg, #77c7a1 17%, #1a5fa2 100%, #ff0000 200%);
+    padding: 20px 65px 20px 65px;
+    margin-right: 10px;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    box-shadow: 3px 9px 22px 3px rgba(50, 53, 52, 0.76);
+    
+}

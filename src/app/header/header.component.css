@@ -1,0 +1,12 @@
+.active a{
+    color: #6b6b6b !important;
+    background-color: white !important;
+}
+.header-nav .nav > li:hover > a {
+    background-color: #ffffff !important;
+    color: #6b6b6b !important;
+}
+.notActive a
+{
+    color: white !important;
+}
